@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* ===================================================================
+
+* text style
+
+=================================================================== */
+
+/*position*/
+.txt_center {
+	text-align: center !important;
+}
+
+.txt_right {
+	text-align: right !important;
+}
+
+.txt_left{
+	text-align: left !important;
+}
+/*size*/
+.txt_size_xxxxlarge {
+	line-height: 1.35;
+	font-size: 52px !important;
+}
+
+.txt_size_xxxlarge {
+	line-height: 1.35;
+	font-size: 1.8rem !important;
+}
+
+.txt_size_xxlarge {
+	line-height: 1.35;
+	font-size: 24px !important;
+}
+
+.txt_size_mlarge {
+	line-height: 1.35;
+	font-size: 20px !important;
+}
+
+.txt_size_mmlarge {
+	line-height: 1.35;
+	font-size: 18px !important;
+}
+
+.txt_size_xlarge {
+	line-height: 1.35;
+	font-size: 16px !important;
+}
+
+.txt_size_large {
+	line-height: 1.35;
+	font-size: 14px !important;
+}
+
+.txt_size_medium {
+	font-size: 12px !important;
+}
+
+.txt_size_xsmall {
+	font-size: 10px !important;
+}
+
+.txt_size_small {
+	line-height: 1.35;
+	font-size: 9px !important;
+}
+.txt_size_vsmall {
+	font-size: 8px !important;
+}
+
+
+.typo_color_white {
+	color: #fff;
+}
+.typo_color_blue {
+	color: #11B3AF;
+}
+.typo_color_green {
+	/* color: #5f8554; */
+}
+.typo_color_purple {
+	/* color: #8d689b; */
+}
+.typo_color_purple a {
+	/* color: #8d689b; */
+}
+.typo_color_yellow {
+	/* color: #FFDC26; */
+}
+.typo_color_pink {
+	color: #e76271;
+}
+.typo_color_glay {
+	color: #b8b8b8;
+}
+.txt_color_imp {
+	/* color: #d90000; */
+}
+.txt_color_minden {
+	/* color: #768b72; */
+}
+/*受付中*/
+.flag01{
+	color: #dc6b73;
+	border: 1px solid #dc6b73;
+	border-radius: 3px;
+	padding: 3px 0px;
+}
+/*鑑定中*/
+.flag02{
+	color: #739ebc;
+	border: 1px solid #739ebc;
+	border-radius: 3px;
+	padding: 3px 0px;
+}
+.flag03{
+	color: #8d689b;
+	border: 1px solid #8d689b;
+	border-radius: 3px;
+	padding: 3px 0px;
+}
+/*満席*/
+.flag04{
+	color: #87ab9b;
+	border: 1px solid #87ab9b;
+	border-radius: 3px;
+	padding: 3px 0px;
+}
+/*退席中*/
+.flag05{
+	color: #909090;
+	border: 1px solid #909090;
+	border-radius: 3px;
+	padding: 3px 0px;
+}
+
+/* line-height */
+.txt_line_150 {
+	line-height: 1.5;
+}
+
+.num {
+  color: #e8730c;
+}
+
+/*weight*/
+.text-bold {
+  font-weight: bold;
+}
+
+/*text-shadow*/
+.text-shadow01{
+  text-shadow: 0 1px 0 #eee, 0 2px 0 #eee, 0 3px 0 #eee, 0 4px 0 #eee, 0 5px 0 #eee, 0 6px 0 #ccc;
+}
+
+/*other*/
+.list_1column li a{
+	white-space: nowrap;
+	display: table-cell;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+.link_none a
+{
+	text-decoration:none;
+}
+.text_under,
+.text_under a{
+	text-decoration: underline;
+}
+.text_height{
+	line-height: 10px;
+}
+.result_text{
+	background-color: #9cbc95;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	text-shadow: -1px -1px 0px #427841;
+	}
+.ranking_txt{
+	display: inline-block;
+	font-size: 15px;
+	margin-top: -6px;
+	
+}
+.qa_coq{
+	color: #fff;
+	background-color: #E76271;
+	text-align: center;
+	border-radius: 3px;
+	font-weight: bold;
+}
+.qa_coa{
+	color: #fff;
+	background-color: #11B3AF;
+	text-align: center;
+	border-radius: 3px;
+	font-weight: bold;
+}
+.coupon_label {
+	background-color: #768b72;
+}
+.float_con {
+	float: left;
+}
+.txt_color_alert {
+	color: #F00;
+}
+.txt_color_alert_notes {
+	color: #F00;
+	font-weight: bold;
+}
+.txt_alert_notes {
+	font-weight: bold;
+}
+.txt_color_bold {
+	color: #F00;
+	font-weight: bold;
+}

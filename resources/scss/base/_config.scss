@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+//*---------------------------------------
+// ---------------------------------------*/
+ $pc-15inch: 1440px;
+ $pc-13inch: 1280px;
+ $pc-16: 1600px;
+ $pc-15: 1500px;
+ $pc-12: 1200px;
+ $pc-11: 1100px;
+ $tablet-landscape: 1024px;
+ $tablet-portrait: 768px;
+ $sp: 640px;
+ $iphoneL: 415px;
+ $iphoneM: 375px;
+ $android: 360px;
+ $iphoneS: 320px;
+ 
+@mixin media($media-width) {
+	 @if $media-width == pc-15inch {
+		 @media screen and (min-width: $pc-15inch) { @content }
+	 }
+	 @else if $media-width == pc-13inch {
+		 @media screen and (min-width: $pc-13inch) { @content }
+	 }
+	 @else if $media-width == pc-16 {
+		 @media screen and (min-width: $pc-16) { @content }
+	 }
+	 @else if $media-width == pc-15 {
+		 @media screen and (min-width: $pc-15) { @content }
+	 }
+	 @else if $media-width == pc-12 {
+		 @media screen and (min-width: $pc-12) { @content }
+	 }
+	 @else if $media-width == pc-11 {
+		 @media screen and (min-width: $pc-11) { @content }
+	 }
+	 @else if $media-width == tablet-landscape {
+		 @media screen and (min-width: $tablet-landscape) { @content }
+	 }
+	 @else if $media-width == tablet-portrait {
+		 @media screen and (min-width: $tablet-portrait) { @content }
+	 }
+	 @else if $media-width == sp {
+		 @media screen and (min-width: $sp) { @content }
+	 }
+	 @else if $media-width == iphoneL {
+		 @media screen and (min-width: $iphoneL) { @content }
+	 }
+	 @else if $media-width == iphoneM {
+		 @media screen and (min-width: $iphoneM) { @content }
+	 }
+	 @else if $media-width == android {
+		 @media screen and (min-width: $android) { @content }
+	 }
+	 @else if $media-width == iphoneS {
+		 @media screen and (min-width: $iphoneS) { @content }
+	 }
+ }
+//*---------------------------------------
+// 
+//---------------------------------------*/
+$img-path:'../../../img/';
+//*---------------------------------------
+//  
+//---------------------------------------*/
+$site-red: #b12f52;
+$site-yellow: #f8b551;
+$hover-blue: #4eabe0;
+$bg-footer: #333;
+
+$bg-flow_01: #ffe5ec;
+$bg-flow_02: #fffbfc;
+//*---------------------------------------
+// 
+// ---------------------------------------*/
+// 
+$txt-color: #000;
+//*---------------------------------------
+// 
+// ---------------------------------------*/
+$white: #FFF;
+$red: #FF0000;
+$blue: #009be2;
+$black: #000;
+$tw-color: #00aced;
+$fb-color: #305097;
+$line-color: #5ae628;
+$google-color: #db4a39;
+$insta-color: #3f729b;
+$tumblr-color: #34526f;
+$flickr-blue-color: #0063dc;
+$flickr-pink-color: #ff0084;
+//*---------------------------------------
+//  
+// ---------------------------------------*/
+// common
+$border-base: #000;

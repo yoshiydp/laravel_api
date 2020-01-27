@@ -1,0 +1,29 @@
+
+/*
+ * Form styles
+ */
+
+.form-form #inputaddr_number,
+.form-form #inputaddr {
+    direction: ltr;
+    height: 44px;
+    font-size: 11px;
+}
+
+.form-form input[type=addr_number],
+.form-form input[type=addr],
+.form-form input[type=text],
+.form-form button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pagination > .active > a {
+    cursor: auto !important;
+}

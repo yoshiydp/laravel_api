@@ -1,0 +1,108 @@
+| @extends('layouts.app')
+| @section('header')
+doctype html
+<html lang="ja">
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title みん電占い
+    link(rel="shortcut icon" href="")
+    link(rel="apple-touch-icon-precomposed" href="")
+    meta(name="description" content="")
+    meta(name="keywords", content="")
+    //-OGP Facebook
+    meta(property="og:locale" content="ja_JP")
+    meta(property="og:type" content="")
+    meta(property="og:title", content="")
+    meta(property="og:description", content="")
+    meta(property="og:image", content="")
+    meta(property="og:url", content="")
+    meta(property="og:site_name", content="")
+    //-OGP Twitter
+    meta(name="twitter:card" content="summary_large_image")
+    meta(name="twitter:title" content="")
+    meta(name="twitter:description" content="")
+    meta(name="twitter:image:src" content="")
+    meta(name="twitter:url" content="")
+    meta(name="twitter:site" content="")
+    //-CSS
+    link(href="{{ asset('css/app.css') }}" rel="stylesheet")
+  <body>
+  //-ヘッダー
+  header.renewal_header(data-scroll-header)
+    .header_wrap#js-header-wrap
+      .wrap_left
+        a.left_menu(href="javascript:void(0);")
+          i.fas.fa-th.menu_icon
+        a.left_logo(href="")
+          //-サイトロゴ
+          h1
+            img(src="/v1/renewal/logo.png" alt="")
+            span.site-title
+              span.site-catch 当たると評判の電話占い
+              br
+              | 「みん電占い」
+      .wrap_right
+        .right_rightMenu
+          a.rightMenu_menuIcon.mypage_nav(href="")
+            i.far.fa-user-circle.menuIcon_icon
+            span.menuIcon_spanStyle.mypage
+            
+          //-メニューボタン
+          button.rightMenu_buttonArea
+            span.buttonArea_top -
+            span.buttonArea_middle -
+            span.buttonArea_bottom -
+      
+    .header_subMenu
+      //-グローバルナビゲーション
+      nav.subMenu_right
+        .right_formArea#js-right-formArea
+          .formArea_left
+            .left_regist
+              a.regist_link(href="user/signup/")
+                i.fas.fa-pen.link_icon
+          .formArea_right
+            .right_login
+              a.login_link(href="login/")
+                i.far.fa-user-circle.link_icon
+        //-ナビゲーションリスト        
+        ul.right_listStyle#js-right-listStyle
+          li
+            a(href="search/")
+              i.fas.fa-angle-right.spanStyle_icon
+          li
+            a(href="page/howtouse/")
+              i.fas.fa-angle-right.spanStyle_icon
+          li
+            a(href="ranking/")
+              i.fas.fa-angle-right.spanStyle_icon
+          li
+            a(href="shaman/")
+              i.fas.fa-angle-right.spanStyle_icon
+          li
+            a(href="news/")
+              i.fas.fa-angle-right.spanStyle_icon
+          li
+            a(href="page/htu.index/")
+              i.fas.fa-angle-right.spanStyle_icon
+          li
+            a(href="review/")
+              i.fas.fa-angle-right.spanStyle_icon
+          li
+            a(href="page/payment/")
+              i.fas.fa-angle-right.spanStyle_icon
+          li
+            a(href="page/faq.index/")
+              i.fas.fa-angle-right.spanStyle_icon
+          li
+            a(href="lp/")
+              i.fas.fa-angle-right.spanStyle_icon
+          li
+            a(href="lp_5/")
+              i.fas.fa-angle-right.spanStyle_icon
+          li
+            a(href="lp_6/")
+              i.fas.fa-angle-right.spanStyle_icon
+| @endsection

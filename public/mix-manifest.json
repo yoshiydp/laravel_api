@@ -1,0 +1,8 @@
+{
+    "/js/build.js": "/js/build.js",
+    "/css/app.css": "/css/app.css",
+    "/resources/views/layouts/app.blade.php": "/resources/views/layouts/app.blade.php",
+    "/resources/views/layouts/footer.blade.php": "/resources/views/layouts/footer.blade.php",
+    "/resources/views/layouts/header.blade.php": "/resources/views/layouts/header.blade.php",
+    "/resources/views/home/index.blade.php": "/resources/views/home/index.blade.php"
+}

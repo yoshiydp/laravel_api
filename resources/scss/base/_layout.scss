@@ -1,0 +1,257 @@
+/*---------------------------------------------------
+  * _z_layout.scss
+  * zigexn common layout class (sass partial file)
+  * date:2014.12.8
+  * author: syuzo(Minori Matsuoka)
+  * version 0.0.1
+  ---------------------------------------------------*/
+
+/* grid pattern */
+// ex ~~ .cols_12 { width: 100%;}
+
+/* fixed width */
+.cols_fix_100 { width: 100px; }
+.cols_fix_100 { width: 100px; }
+
+
+/* width */
+.width100per { width: 100%; }
+.width60px { width: 60px; }
+.width90px { width: 90px; }
+.width100px { width: 100px; }
+.width160px { width: 160px; }
+.w_100px { width: 100px; }
+.w_50per { width: 50% !important;}
+.w_75per { width: 75% !important;}
+.w_40px { width: 40px !important;}
+
+/* height */
+.h_60px { height: 60px !important;}
+.h_120px { height: 120px !important;}
+
+
+/* margin */
+.m_1 { margin: 1px; }
+.m_3 { margin: 3px; }
+.m_5 { margin: 5px; }
+.m_10 { margin: 10px; }
+.m_15 { margin: 15px; }
+.m_20 { margin: 20px; }
+.m_30 { margin: 30px; }
+
+.mt_0 { margin-top: 0; }
+.mt_1 { margin-top: 1px; }
+.mt_3 { margin-top: 3px; }
+.mt_5 { margin-top: 5px; }
+.mt_7 { margin-top: 7px; }
+.mt_8 { margin-top: 8px; }
+.mt_10 { margin-top: 10px !important; }
+.mt_13 { margin-top: 13px; }
+.mt_15 { margin-top: 15px; }
+.mt_20 { margin-top: 20px; }
+.mt_25 { margin-top: 25px; }
+.mt_30 { margin-top: 30px !important; }
+.mt_35 { margin-top: 35px; }
+.mt_80 { margin-top: 80px;}
+.mt_m10 { margin-top: -10px !important; }
+
+.mr_auto { margin-right: auto; }
+.mr_0 { margin-right: 0; }
+.mr_1 { margin-right: 1px; }
+.mr_3 { margin-right: 3px; }
+.mr_5 { margin-right: 5px; }
+.mr_10 { margin-right: 10px; }
+.mr_15 { margin-right: 15px; }
+.mr_20 { margin-right: 20px; }
+.mr_25 { margin-right: 25px; }
+.mr_30 { margin-right: 30px; }
+.mr_35 { margin-right: 35px; }
+.mr_46 { margin-right: 46px; }
+.mr_m10 { margin-right: -10px !important; }
+
+.mb_0 { margin-bottom: 0; }
+.mb_1 { margin-bottom: 1px; }
+.mb_3 { margin-bottom: 3px; }
+.mb_5 { margin-bottom: 5px; }
+.mb_7 { margin-bottom: 7px; }
+.mb_10 { margin-bottom: 10px; }
+.mb_13 { margin-bottom: 13px; }
+.mb_15 { margin-bottom: 15px; }
+.mb_20 { margin-bottom: 20px; }
+.mb_25 { margin-bottom: 25px; }
+.mb_30 { margin-bottom: 30px; }
+.mb_35 { margin-bottom: 35px; }
+.mb_50 { margin-bottom: 50px; }
+
+.ml_auto { margin-left: auto; }
+.ml_0 { margin-left: 0; }
+.ml_1 { margin-left: 1px; }
+.ml_3 { margin-left: 3px; }
+.ml_5 { margin-left: 5px; }
+.ml_10 { margin-left: 10px; }
+.ml_15 { margin-left: 15px; }
+.ml_20 { margin-left: 20px; }
+.ml_25 { margin-left: 25px; }
+.ml_30 { margin-left: 30px; }
+.ml_35 { margin-left: 35px; }
+.ml_46 { margin-left: 46px; }
+
+/* padding */
+.p_0 { padding: 0!important; }
+.p_3 { padding: 3px!important; }
+.p_5 { padding: 5px!important; }
+.p_8 { padding: 8px!important;}
+.p_10 { padding: 10px!important;; }
+.p_15 { padding: 15px !important; }
+.p_20 { padding: 20px; }
+.p_30 { padding: 30px; }
+
+.pt_0 { padding-top: 0; }
+.pt_3 { padding-top: 3px; }
+.pt_5 { padding-top: 5px !important; }
+.pt_8 { padding-top: 8px; }
+.pt_10 { padding-top: 10px !important; }
+.pt_13 { padding-top: 13px; }
+.pt_15 { padding-top: 15px; }
+.pt_20 { padding-top: 20px; }
+.pt_30 { padding-top: 30px; }
+
+.pr_0 { padding-right: 0; }
+.pr_3 { padding-right: 3px; }
+.pr_5 { padding-right: 5px; }
+.pr_10 { padding-right: 10px !important; }
+.pr_15 { padding-right: 15px; }
+.pr_20 { padding-right: 20px; }
+.pr_27 { padding-right: 27px; }
+.pr_30 { padding-right: 30px; }
+.pr_35 { padding-right: 35px; }
+
+.pb_0 { padding-bottom: 0; }
+.pr_3 { padding-bottom: 3px; }
+.pb_5 { padding-bottom: 5px !important; }
+.pb_10 { padding-bottom: 10px !important; }
+.pb_13 { padding-bottom: 13px; }
+.pb_15 { padding-bottom: 15px; }
+.pb_20 { padding-bottom: 20px; }
+.pb_25 { padding-bottom: 25px; }
+.pb_30 { padding-bottom: 30px; }
+
+.pl_0 { padding-left: 0; }
+.pl_3 { padding-left: 3px; }
+.pl_5 { padding-left: 5px; }
+.pl_10 { padding-left: 10px !important; }
+.pl_15 { padding-left: 15px; }
+.pl_20 { padding-left: 20px; }
+.pl_27 { padding-left: 27px; }
+.pl_30 { padding-left: 30px !important; }
+.pl_35 { padding-left: 35px !important; }
+.pl_55 { padding-left: 55px !important; }
+
+/* 共通で利用 /account/newsletters */
+.js_newsletter_detail {
+  display: none;
+}
+
+.pc_platform, .pc_platform .navbar-fixed-bottom{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#warning-pc .modal-body{
+  padding: 25px 15px;
+}
+
+#warning-pc .modal-dialog{
+  width: 500px;
+}
+
+.vertical-alignment-helper {
+  display:table;
+  height: 100%;
+  width: 100%;
+  pointer-events:none;
+}
+.vertical-align-center {
+  /* To center vertically */
+  display: table-cell;
+  vertical-align: middle;
+  pointer-events:none;
+}
+.modal-content {
+  /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+  width:inherit;
+  height:inherit;
+  /* To center horizontally */
+  margin: 0 auto;
+  pointer-events:all;
+}
+
+/* clearfix */
+.clear:before,
+.row:before {
+  content: '';
+  display: table;
+}
+
+.clear:after,
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.bg-light p { margin: 0;}
+.f_left { float:left;}
+.f_right { float:right;}
+.icon_s_menu { 
+	width: 15% !important; 
+	display: inline-block;}
+.typo_color_orange {
+	color: orange;
+}
+.b_orange_brown_tone{
+  border: 1px solid #6f3d05 !important; 
+}
+h2 {
+  text-align:center;
+  font-style: normal;
+  font-weight: 800;
+}
+.title_font{
+  font-style: normal;
+  font-weight: 500;
+}
+.button_font{
+  text-align: center;
+  font-style: normal;
+}
+.list-inline p {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*メニュー*/
+.menu_listbar a {
+display: block;
+position: relative;
+padding: 10px 25px 10px 10px;
+border-bottom: 1px dotted #030;
+background: #FFF;
+text-decoration: none;
+}
+
+.menu_listbar a :after {
+display: block;
+content: "";
+position: absolute;
+top: 50%;
+right: 10px;
+width: 8px;
+height: 8px;
+margin: -4px 0 0 0;
+border-top: solid 1px #888;
+border-right: solid 1px #888;
+-webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
+
+.menu_listbar dd a:hover { background:#e2dbd7; }
